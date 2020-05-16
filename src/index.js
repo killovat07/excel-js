@@ -1,4 +1,3 @@
-import './module';
-import './less/index.less';
+import './scss/index.scss'
 
-console.log('1');
+console.log('Working!')
