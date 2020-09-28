@@ -1,4 +1,9 @@
-import './module';
-import './less/index.less';
+import {Router} from '@core/routes/Router'
+import {DashboardPage} from '@/pages/DashboardPage'
+import {ExcelPage} from '@/pages/ExcelPage'
+import './scss/index.scss'
 
-console.log('1');
+new Router('#app', {
+  dashboard: DashboardPage,
+  excel: ExcelPage
+})
